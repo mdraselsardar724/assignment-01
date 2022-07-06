@@ -222,9 +222,120 @@
     line-height: 50px;
 }
 
-/* content stop*/
+/* end donate now*/
+/*start our donate plan*/
+.our-donation {
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1150px;
+    display: flex;
+    margin: auto;
+}
 
+.our-donation-plan {
+    width: 691px;
+    margin: auto;
+    text-align: center;
+    padding: 130px 0;
+}
 
+.all-plan {
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1150px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.plan {
+    background-color: #edf5f6;
+    width: 360px;
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.plan img {
+    padding-bottom: 20px;
+}
+
+.plan h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0b0d17;
+    padding-bottom: 20px;
+}
+
+.plan p {
+    color: #808080;
+    font-weight: 300;
+    font-size: 16px;
+    width: 315px;
+}
+
+/*end donation*/
+
+/*start relief*/
+.their-lives {
+    max-width: 1150px;
+    display: flex;
+    margin: auto;
+    padding-top: 140px;
+    justify-content: flex-start;
+}
+
+.depend {
+    width: 493px;
+    height: 374px;
+    margin-right: 35px;
+}
+
+.depend h1 {
+    font-weight: 700px;
+    font-size: 45px;
+    width: 492px;
+    color: #0b0d17;
+}
+
+.depend p {
+    color: #808080;
+    width: 482px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.depend a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    background-color: #FF5959;
+    line-height: 50px;
+}
+
+.want-relief {
+    width: 456px;
+    height: 477px;
+    margin-top: -60px;
+}
+
+/*start payment form*/
+form {
+    width: 600px;
+    margin: 100px auto 0 auto;
+    padding: 10px;
+}
 
 
 /*start footer*/

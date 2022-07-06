@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/*start top-section*/
 .top-banner {
     background-image: url(images/top-banner.jpg);
     background-position: center;
@@ -51,5 +52,130 @@
     font-weight: 700;
     background-color: #FF5959;
     line-height: 50px;
+}
 
+/*end top-section*/
+
+/*Start Donate Today*/
+.donate-hare {
+    background-color: #ffffff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 142px;
+}
+
+.container2 {
+    max-width: 1150px;
+    display: flex;
+    margin: auto;
+}
+
+.donate-for {
+    width: 583px;
+    margin: auto;
+    text-align: center;
+}
+
+.donate-for h2 {
+    padding-bottom: 38px;
+    font-weight: 700;
+    color: #121212;
+    font-size: 45px;
+}
+
+.donate-for p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    padding-bottom: 57px;
+}
+
+.price-list {
+    display: flex;
+    width: 766px;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.first-package {
+    background-color: #FAFAFA;
+    height: 123px;
+    width: 135px;
+    display: flex;
+}
+
+.first-package p {
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.second-package {
+    background-color: #FFEEEE;
+    height: 123px;
+    width: 135px;
+    display: flex;
+    border: 2px solid rgb(255, 89, 89);
+}
+
+.second-package p {
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FF5959;
+}
+
+.threed-package {
+    background-color: #FAFAFA;
+    height: 123px;
+    width: 135px;
+    display: flex;
+}
+
+.threed-package p {
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.fourth-package {
+    background-color: #FAFAFA;
+    height: 123px;
+    width: 135px;
+    display: flex;
+}
+
+.fourth-package p {
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.five-package {
+    background-color: #FAFAFA;
+    height: 123px;
+    width: 135px;
+    display: flex;
+}
+
+.five-package p {
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+    color: #707070;
+}
+
+.choose-price {
+    width: 192px;
+    height: 28px;
+    display: flex;
+}
+
+.choose-price input {
+    margin: auto;
 }

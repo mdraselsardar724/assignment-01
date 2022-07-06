@@ -2,5 +2,54 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 189px 0 174px;
+}
+
+.container {
+    max-width: 1150px;
+    display: flex;
+    margin: auto;
+}
+
+.content {
+    width: 810px;
+    margin: auto;
+    text-align: center;
+}
+
+.content h1 {
+    padding-bottom: 40px;
+    width: 826px;
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.content p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 33px;
+}
+
+.content a {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #FF5959;
+    line-height: 50px;
 
 }

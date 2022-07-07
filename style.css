@@ -11,7 +11,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 198px 0 190px 0;
+
+    padding: 198px 0 200px 0;
 }
 
 .container {
@@ -57,38 +58,37 @@
 /*end top-section*/
 
 /*Start Donate Today*/
-.donate-hare {
+.start-donate {
     background-color: #ffffff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 142px;
+    width: 100%;
+    height: auto;
 }
 
-.container2 {
-    max-width: 1150px;
+.donate-here {
+    width: 580px;
+    height: auto;
     display: flex;
     margin: auto;
-}
-
-.donate-for {
-    width: 583px;
-    margin: auto;
     text-align: center;
+    padding-top: 140px;
+    padding-bottom: 40px;
 }
 
-.donate-for h2 {
-    padding-bottom: 38px;
-    font-weight: 700;
+.content2 h2 {
+    padding-bottom: 30px;
     color: #121212;
     font-size: 45px;
+    font-weight: 700;
 }
 
-.donate-for p {
-    font-weight: 400;
-    font-size: 18px;
+.content2 p {
     color: #707070;
-    padding-bottom: 57px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
 }
 
 .price-list {
@@ -229,7 +229,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 1150px;
+    max-width: 100%;
     display: flex;
     margin: auto;
 }
@@ -246,7 +246,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 1150px;
+    max-width: 100%;
     display: flex;
     margin: auto;
     justify-content: space-evenly;
@@ -278,37 +278,48 @@
     width: 315px;
 }
 
-/*end donation*/
+/*end our donation plan*/
 
-/*start relief*/
-.their-lives {
-    max-width: 1150px;
+/*start relief goods*/
+.their {
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
     display: flex;
-    margin: auto;
     padding-top: 140px;
+}
+
+.their-lives {
+    width: 1150px;
+    height: auto;
+    margin: auto;
+    display: flex;
     justify-content: flex-start;
+    padding: 80px 0;
 }
 
 .depend {
     width: 493px;
     height: 374px;
-    margin-right: 35px;
+    margin-right: 80px;
+
 }
 
 .depend h1 {
-    font-weight: 700px;
     font-size: 45px;
-    width: 492px;
-    color: #0b0d17;
+    font-weight: 700;
+    color: #121212;
 }
 
 .depend p {
     color: #808080;
-    width: 482px;
     font-size: 16px;
     font-weight: 400;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .depend a {
@@ -327,28 +338,34 @@
 .want-relief {
     width: 456px;
     height: 477px;
-    margin-top: -60px;
+    margin-top: -100px;
 }
 
 /*end relif*/
 
 /*start servive*/
-.they-need {
-    max-width: 1150px;
+.they {
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
     display: flex;
-    margin: auto;
-    padding-top: 140px;
-    justify-content: flex-start;
 }
 
-.need-survive {
-    margin-top: -50px;
+.they-need {
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px
 }
 
 .survive {
     width: 482px;
     height: 374px;
-    margin-left: 50px;
+    margin-left: 60px;
+    margin-top: 30px;
 }
 
 .survive h1 {
@@ -411,12 +428,43 @@
 /*end get my updates*/
 
 /*start payment form*/
-form {
-    width: 600px;
-    margin: 100px auto 0 auto;
-    padding: 10px;
+.subcribe {
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    display: flex;
 }
 
+.form-here {
+    margin: auto;
+    width: 809px;
+    height: auto;
+    padding: 90px 188px;
+    background-color: #edf5f6;
+    margin-bottom: 80px;
+}
+
+.input-width {
+    width: 400px;
+    background-color: #ffffff;
+    border: 0;
+}
+
+.form-here a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    background-color: #FF5959;
+    line-height: 50px;
+}
 
 /*start footer*/
 footer {
